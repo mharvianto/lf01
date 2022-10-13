@@ -11,6 +11,6 @@ int main() {
 	// 15:06:31
 	int jam, menit, detik;
 	scanf("%d:%d:%d", &jam, &menit, &detik);
-	printf("Jam: %d, Menit: %d, Detik: %d\n", jam, menit, detik)
+	printf("Jam: %d, Menit: %d, Detik: %d\n", jam, menit, detik);
 	return 0;
 }
