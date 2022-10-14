@@ -2,6 +2,15 @@
 
 D5387 - Harvianto
 
+Outline:
+1. [Session 02 - Input and Output](#session-02---input-and-output)
+    1. [Output](#output)
+    2. [Input](#input)
+2. [Session 03 - Operator & Operand](#session-03---operator--operand)
+    1. [Arithmatic](#arithmatic)
+    2. [Bitwise](#bitwise)
+    3. [Precedence & Associative](#operator-precedence--associative)
+
 ## Session 02 - Input and Output
 
 ### Output
