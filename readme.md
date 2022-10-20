@@ -165,7 +165,7 @@ switch (/* expression */) {
 #### for
 
 ```c
-for (/* intialization */; /* condition */; /* statement/increment */) {
+for (/* initialization */; /* condition */; /* statement/increment */) {
      // statement
 }
 ```
