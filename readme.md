@@ -10,6 +10,9 @@ Outline:
     1. [Arithmatic](#arithmatic)
     2. [Bitwise](#bitwise)
     3. [Precedence & Associative](#operator-precedence--associative)
+3. [Session 04 - Selection and Looping (Iterative)](#session-04---selection-and-looping-iterative)
+     1. [Selection](#selection)
+     2. [Looping (Iterative)](#looping-iterative)
 
 ## Session 02 - Input and Output
 
