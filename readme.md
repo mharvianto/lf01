@@ -133,7 +133,7 @@ if (/* condition */) {
 
 Ex Ganjil / Genap:
 
-Genap adalah bilangan yang habis dibagi dengan 2. Sedangkan sebaliknya adalah ganjil. Berarti bila sisa bagi dari bilangan tersebut adalah 0, maka bilangan tersebut bilangan genap.
+Genap adalah bilangan yang habis dibagi dengan 2. Sedangkan sebaliknya adalah ganjil. Berarti bila sisa bagi dari bilangan tersebut adalah 0, maka bilangan tersebut adalah bilangan genap.
 ```c++
 int angka;
 scanf("%d", &angka);
