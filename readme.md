@@ -112,3 +112,98 @@ Shift Right Explanation:
 |     15     | \|\|                           |     ltr     |
 
 Reference: https://en.cppreference.com/w/cpp/language/operator_precedence
+
+
+## Session 04 - Selection and Looping (Iterative)
+
+### Selection
+
+#### if-case
+
+```c++
+if (/* condition */) {
+     // true statement
+} else {
+     // false statement
+}
+```
+
+Ex Ganjil / Genap:
+
+Genap adalah bilangan yang habis dibagi dengan 2. Sedangkan sebaliknya adalah ganjil. Berarti bila sisa bagi dari bilangan tersebut adalah 0, maka bilangan tersebut bilangan genap.
+```c++
+int angka;
+scanf("%d", &angka);
+if (angka % 2 == 0) {
+     printf("Genap\n");
+} else {
+     printf("Ganjil\n");
+}
+```
+
+#### swicth-case
+
+```c
+switch (/* expression */) {
+     case /* case 1 */:
+          // statement
+          break;
+     case /* case 2 */:
+          // statement
+          break;
+     default:
+          // statement
+          break;
+}
+```
+
+### Looping (Iterative)
+
+#### for
+
+```c
+for (/* intialization */; /* condition */; /* statement/increment */) {
+     // statement
+}
+```
+
+Ex:
+```c
+for (int i = 1; i <= 10; i++) {
+     printf("Loop for ke-%d\n", i);
+}
+```
+
+#### while
+
+```c
+while (/* condition */) {
+     // statement
+}
+```
+
+Ex:
+```c
+int j = 1; 
+while (j <= 10) {
+     printf("Loop while ke-%d\n", j);
+     j++;
+}
+```
+
+#### do-while
+
+```c
+do {
+     // statement
+} while(/* condition */);
+```
+
+Ex:
+```c
+int k = 1; 
+do {
+     printf("loop dowhile ke-%d\n", k);
+     k++;
+} while(k <= 10);
+```
